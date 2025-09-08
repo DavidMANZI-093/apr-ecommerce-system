@@ -1,0 +1,12 @@
+node_modules
+dist
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Test files
+__tests__/
+jest.config.js
+prisma/scripts/
+scripts/
